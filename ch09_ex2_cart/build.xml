@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="ch09_ex2_cart" default="default" basedir=".">
-    <description>Builds, tests, and runs the project ch09_ex2_cart.</description>
+<project name="ch09" default="default" basedir=".">
+    <description>Builds, tests, and runs the project ch09.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
