@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="final-project" default="default" basedir=".">
-    <description>Builds, tests, and runs the project final-project.</description>
+<project name="ch06_ex2_survey" default="default" basedir=".">
+    <description>Builds, tests, and runs the project ch06_ex2_survey.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
