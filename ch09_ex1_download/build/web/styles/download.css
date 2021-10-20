@@ -1,0 +1,32 @@
+tr th:first-child {
+    min-width: 300px;
+}
+tr th:last-child {
+    min-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    height: 36px;
+    color: #f6c07d;
+}
+td { 
+    height: 28px;
+}
+a {
+    text-decoration: none;
+    color: #f99566;
+}
+a:hover {
+    opacity: 0.8;
+}
+p {
+    margin: 2em 0 0.4em;
+}
+td a {
+    color: #00e7ff
+}
+tr td:last-child {
+    text-align: center;
+}
+
