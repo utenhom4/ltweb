@@ -20,7 +20,7 @@
                <td><c:out value='${product.description}'/></td>
                <td class="right">${product.priceCurrencyFormat}</td>
                <td><form action="cart" method="post" class="nosee">
-                       <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>" class="_ip">
+                       <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
                        <input type="submit" value="Add To Cart" class="btn">
                    </form></td>
             </tr>
