@@ -1,19 +1,30 @@
 body { 
+    background: url('../img/BackG.jpg')no-repeat center / cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 85%;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 400px;
+    margin: 0 2em 0 2em;
+}
+.BD{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25em;
+    float: right;
+    margin-right: 20%
 }
 h1 {     
     font-size: 140%;
-    color: teal;
-    margin-bottom: .5em;    
+    color: red;
+    margin-bottom: .5em;
+    text-align: center;
+    letter-spacing: 6px;
 }
 h2 {     
     font-size: 120%;
-    color: teal;
-    margin-bottom: .5em;    
+    color: red;
+    margin-bottom: .5em; 
 }
 label {
     float: left;
@@ -21,10 +32,23 @@ label {
     margin-bottom: 0.5em;
     font-weight: bold;
 }
-input[type="text"], input[type="email"] {  /* An attribute selector */
+input[type="text"], input[type="email"], .posmail {  /* An attribute selector */
     width: 15em;
     margin-left: 0.5em;    
     margin-bottom: 0.5em;
+    background-color: Transparent;
+    border: 2px solid white;
+    color: white;
+}
+.posmail{
+    width: 10em;
+}
+.infoposmail{
+    color: black;
+}
+.ipf{
+    padding-left: 0.5em
+        
 }
 span {
     margin-left: 0.5em;    
@@ -35,9 +59,22 @@ br {
 }
 
 /* The styles for the classes */
-.pad_top {
+.pad_top,p {
+    color: white;
     padding-top: 0.25em;
 }
 .margin_left {
+    
     margin-left: 0.5em;
+}
+._btn{
+    padding: 10px;
+    background-color: #000000;
+    cursor:pointer;
+    overflow: hidden; 
+    color: #ffffff;
+}
+._btn:hover{
+    color: #999999;
+    background-color: #ffffff;
 }
